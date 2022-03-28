@@ -11,7 +11,6 @@
   inputs.src-diff-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-diff-0_1_0.owner = "mark-summerfield";
   inputs.src-diff-0_1_0.repo  = "diff";
-  inputs.src-diff-0_1_0.dir   = "";
   inputs.src-diff-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
